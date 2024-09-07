@@ -491,7 +491,11 @@ else:
             for x in range(threads-1):
                 threading.Thread(target=url_scanner, args=(url_file , proxies , auth , timeout_time , save_file , "multi" , x , urls_per_thread , 0)).start()    
             else:
-                threading.Thread(target=url_scanner, args=(url_file , proxies , auth , timeout_time , save_file , "multi" , x , urls_per_thread , carry_over)).start()   
+                threading.Thread(target=url_scanner, args=(url_file , proxies , auth , timeout_time , save_file , "multi" , x , urls_per_thread , carry_over)).start() 
+
+        case _:
+            print("[X] NOT A VALID OPTION")
+            quit()  
 
 
     
