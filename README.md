@@ -58,6 +58,8 @@ Using with wizard
 ```
 python main.py -wiz
 ```
+![image](https://github.com/user-attachments/assets/85e5ec2b-a156-4196-ad6c-70fc5d611a16)
+
 
 ## Using with TOR
 
